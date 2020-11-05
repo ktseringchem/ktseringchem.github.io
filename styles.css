@@ -1,0 +1,134 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-container {
+  min-height: 100%;
+  background-color: lightblue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  min-height: 8vh;
+  background-color: #009879;
+}
+
+#tilted-text {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 60px;
+  font-family: "Great Vibes", cursive;
+  letter-spacing: 5px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+#right-mess {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+#right-mess h5 {
+  text-decoration: underline;
+  text-decoration-color: rgb(126, 31, 31);
+  color: #3c1362;
+  font-size: 25px;
+}
+
+#right-mess p {
+  font-size: 20px;
+}
+
+.profile-container {
+  display: flex;
+  min-height: 20hv;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: #f7f7f7;
+}
+
+.profile-img {
+  display: flex;
+  align-self: flex-end;
+  margin-left: 6em;
+  width: 600px;
+}
+
+.profile-img img {
+  max-width: 100%;
+}
+
+.profile-right-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 700px;
+  height: 750px;
+}
+
+.logo-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 100px;
+}
+
+.logo-img img {
+  max-width: 100px;
+  max-height: 90px;
+}
+
+.profile-bio {
+  /* margin-right: 15em; */
+  width: 600px;
+  height: 300px;
+  color: #656769;
+  font-size: 25px;
+  font-family: "Libre Baskerville", serif;
+  line-height: 39px;
+  /* text-align: center; */
+  text-shadow: 0 1px 1px #fff;
+  /* padding-top: 20px; */
+  /* border: 1px solid red; */
+}
+
+.type-insur {
+  border: 1px solid red;
+  align-self: flex-end;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 350px;
+  min-height: 20vh;
+  border-radius: 5px 5px 0 0;
+  margin: 25px 20px 0px 0;
+  padding: 0 80px 0 20px;
+  font-size: 25px;
+}
+
+address {
+  min-width: 90px;
+  margin-bottom: 30px;
+  /* flex-grow: 1; */
+}
+
+.loc-header {
+  min-width: 100%;
+  min-height: 30px;
+  border-radius: 5px 5px 0 0;
+  background-color: #009879;
+}
