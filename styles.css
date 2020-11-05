@@ -85,8 +85,8 @@
 }
 
 .logo-img img {
-  max-width: 100px;
-  max-height: 90px;
+  max-width: 200px;
+  max-height: 190px;
 }
 
 .profile-bio {
@@ -110,7 +110,7 @@
 .contact-cards {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+
   min-width: 350px;
   min-height: 20vh;
   border-radius: 5px 5px 0 0;
@@ -120,14 +120,18 @@
 }
 
 address {
-  min-width: 90px;
+  background-color: #f7f7f7;
+  border-radius: 30px;
+  box-shadow: 0 20px 20 px rgba(0, 0, 0 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
   margin-bottom: 30px;
-  /* flex-grow: 1; */
+  padding: 30px;
+  width: 500px;
 }
 
-.loc-header {
+/* .loc-header {
   min-width: 100%;
   min-height: 30px;
-  border-radius: 5px 5px 0 0;
+  padding: -30px;
   background-color: #009879;
-}
+} */
